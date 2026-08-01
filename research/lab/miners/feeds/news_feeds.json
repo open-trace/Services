@@ -1,0 +1,38 @@
+{
+  "Nigeria": [
+    {"name": "Premium Times Agriculture", "url": "https://www.premiumtimesng.com/tag/agriculture/feed"},
+    {"name": "Vanguard Agriculture", "url": "https://www.vanguardngr.com/category/agriculture/feed/"},
+    {"name": "The Guardian Nigeria Agriculture", "url": "https://guardian.ng/tag/agriculture/feed/"}
+  ],
+  "Kenya": [
+    {"name": "The Star Agriculture", "url": "https://www.the-star.co.ke/news/agriculture/rss"},
+    {"name": "Business Daily Africa", "url": "https://www.businessdailyafrica.com/bd/economy/rss"}
+  ],
+  "Ghana": [
+    {"name": "Ghana Web Agriculture", "url": "https://www.ghanaweb.com/GhanaHomePage/business/rss/"},
+    {"name": "Modern Ghana", "url": "https://www.modernghana.com/rss/agriculture.xml"}
+  ],
+  "Rwanda": [
+    {"name": "The New Times Rwanda", "url": "https://www.newtimes.co.rw/feed"}
+  ],
+  "Uganda": [
+    {"name": "Daily Monitor Agriculture", "url": "https://www.monitor.co.ug/uganda/business/rss"},
+    {"name": "New Vision", "url": "https://www.newvision.co.ug/category/farming/rss"}
+  ],
+  "South Africa": [
+    {"name": "Farmer's Weekly SA", "url": "https://www.farmersweekly.co.za/feed/"},
+    {"name": "Food For Mzansi", "url": "https://www.foodformzansi.co.za/feed/"}
+  ],
+  "Tanzania": [
+    {"name": "The Citizen TZ", "url": "https://www.thecitizen.co.tz/tanzania/news/rss"}
+  ],
+  "Ethiopia": [
+    {"name": "Ethiopian Monitor", "url": "https://ethiopianmonitor.com/feed/"}
+  ],
+  "Senegal": [
+    {"name": "Agence de Presse Senegalaise", "url": "https://aps.sn/feed/"}
+  ],
+  "Malawi": [
+    {"name": "Malawi24", "url": "https://malawi24.com/feed/"}
+  ]
+}

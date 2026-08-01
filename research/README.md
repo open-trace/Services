@@ -41,10 +41,10 @@ checkpoints/{corpus}.jsonl
 | Miner | Status | Notes |
 |-------|--------|-------|
 | `arxiv` | Implemented | Atom API + optional PDF download |
+| `news` | Implemented | RSS feeds + trafilatura full-text extraction (10 countries) |
+| `ugc` | Implemented | Agricultural blogs and extension service content |
 | `youtube` | Stub | Agripreneur how-to transcripts |
 | `manuals` | Stub | Practice manuals and textbooks |
-| `news` | Stub | Raw news/RSS (independent from ml-eng) |
-| `ugc` | Stub | Blogs and open comments |
 
 ## Configuration
 

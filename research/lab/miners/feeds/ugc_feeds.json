@@ -1,0 +1,19 @@
+{
+  "Kenya": [
+    {"name": "Shamba Shape Up", "url": "https://shambashapeup.com/feed/"},
+    {"name": "iCow Blog", "url": "https://www.icow.co.ke/blog/feed/"}
+  ],
+  "Nigeria": [
+    {"name": "Agripreneur NG", "url": "https://agripreneur.ng/feed/"},
+    {"name": "AgroNigeria", "url": "https://agronigeria.ng/feed/"}
+  ],
+  "Ghana": [
+    {"name": "FarmingGhana", "url": "https://farmingghana.com/feed/"}
+  ],
+  "South Africa": [
+    {"name": "AgriOrbit", "url": "https://www.agriorbit.com/feed/"}
+  ],
+  "Uganda": [
+    {"name": "Uganda Agribusiness Alliance", "url": "https://ugandaagribusinessalliance.com/feed/"}
+  ]
+}
