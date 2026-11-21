@@ -1,4 +1,4 @@
-# Local App Redis for dev parity with Railway App Redis.
+# Local App Redis + Qdrant for dev parity with Railway shared infra.
 # Usage: docker compose -f docker-compose.local.yml up -d
 
 services:
@@ -15,5 +15,22 @@ services:
       timeout: 3s
       retries: 5
 
+  qdrant:
+    image: qdrant/qdrant:v1.13.6
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    environment:
+      QDRANT__SERVICE__API_KEY: ${QDRANT_API_KEY:-local-dev-key}
+    volumes:
+      - qdrant-storage:/qdrant/storage
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:6333/healthz || exit 1"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
 volumes:
   redis-data:
+  qdrant-storage:
