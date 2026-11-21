@@ -14,6 +14,21 @@ How OpenTrace repos connect to self-hosted Services infrastructure.
 
 **Different project / local dev:** enable TCP proxy on the Redis service or use `docker compose -f docker-compose.local.yml`.
 
+## Qdrant
+
+| Consumer | Variable | Purpose |
+|----------|----------|---------|
+| ml-eng RAG API | `QDRANT_URL`, `QDRANT_API_KEY` | Vector retrieval (six collections) |
+| ml-eng ingestion workers | Same | Rebuild/upsert collections |
+
+**Same Railway project:** `QDRANT_URL=http://qdrant.railway.internal:6333`.
+
+**Different project / local dev:** generate a public domain on the `qdrant`
+service (temporary — prefer private networking in production), or use
+`docker compose -f docker-compose.local.yml`.
+
+See [runbooks/qdrant.md](runbooks/qdrant.md) for deploy + Qdrant Cloud migration steps.
+
 ## Langfuse
 
 | Consumer | Variables |

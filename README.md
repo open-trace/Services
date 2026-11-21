@@ -13,18 +13,19 @@ This repo does **not** deploy application code (RAG API, chunking, Qdrant loader
 
 ## Platform (Railway)
 
-**Start here:** [runbooks/deploy-railway-walkthrough.md](runbooks/deploy-railway-walkthrough.md) — step-by-step checklist for App Redis + Langfuse.
+**Start here:** [runbooks/deploy-railway-walkthrough.md](runbooks/deploy-railway-walkthrough.md) — step-by-step checklist for App Redis + Langfuse. Qdrant: [runbooks/qdrant.md](runbooks/qdrant.md).
 
-Deploy shared infra via Railway one-click templates:
+Deploy shared infra via Railway:
 
 - **App Redis** — [Railway Redis template](https://docs.railway.com/databases/redis) for ml-eng session storage (`RAG_REDIS_URL`) and optional research checkpoints (`CHECKPOINT_REDIS_URL`)
+- **Qdrant** — self-managed `qdrant/qdrant` Docker image for ml-eng vector retrieval (`QDRANT_URL`); see [runbooks/qdrant.md](runbooks/qdrant.md), including Qdrant Cloud migration
 - **Langfuse v3** — [Official Langfuse Railway template](https://langfuse.com/self-hosting/deployment/railway) for LLM/RAG tracing
 
 Langfuse ships with its **own** internal Redis, Postgres, ClickHouse, and MinIO. Do not point ml-eng or the research lab at Langfuse's Redis.
 
 See [CONNECTIONS.md](CONNECTIONS.md) for the env var matrix across consumer repos.
 
-Local Redis for dev: `docker compose -f docker-compose.local.yml up -d`
+Local Redis + Qdrant for dev: `docker compose -f docker-compose.local.yml up -d`
 
 ## Research lab
 
@@ -42,5 +43,5 @@ See [research/README.md](research/README.md) for raw layout, graduation criteria
 
 | Repo | Uses from Services |
 |------|-------------------|
-| [ml-eng](https://github.com/open-trace/data-team/tree/main/ml-eng) | `RAG_REDIS_URL`, `LANGFUSE_*`, raw corpora from GCS after graduation |
+| [ml-eng](https://github.com/open-trace/data-team/tree/main/ml-eng) | `RAG_REDIS_URL`, `QDRANT_URL`, `LANGFUSE_*`, raw corpora from GCS after graduation |
 | Other OpenTrace projects | Same platform vars; see CONNECTIONS.md |

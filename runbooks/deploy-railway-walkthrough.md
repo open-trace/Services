@@ -4,7 +4,7 @@ Line-by-line checklist for deploying OpenTrace shared infrastructure on Railway 
 
 **Estimated time:** Redis ~10 min · Langfuse ~30–45 min (first boot is slow)
 
-See also: [redis.md](redis.md) · [langfuse.md](langfuse.md) · [CONNECTIONS.md](../CONNECTIONS.md)
+See also: [redis.md](redis.md) · [langfuse.md](langfuse.md) · [qdrant.md](qdrant.md) · [CONNECTIONS.md](../CONNECTIONS.md)
 
 ---
 
@@ -293,7 +293,6 @@ These are **not** deployed from this repo:
 
 | Service | Where |
 |---------|-------|
-| Qdrant | Qdrant Cloud (`QDRANT_URL`) |
 | BigQuery | GCP |
 | OpenRouter / Cohere | Managed API keys |
 | ml-eng app code | [data-team/ml-eng](https://github.com/open-trace/data-team/tree/main/ml-eng) |

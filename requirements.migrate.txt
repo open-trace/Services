@@ -1,0 +1,3 @@
+# Qdrant Cloud -> self-managed Qdrant snapshot migration.
+# Raw REST snapshot transfer only.
+requests>=2.31.0
