@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Farmers Trend",
+    "channel_id": "UC3BGlwmI-Vk9g0X4h1-UGMQ",
+    "country": "Kenya",
+    "query": "farming Kenya agriculture"
+  },
+  {
+    "name": "Victoria Agri",
+    "channel_id": "",
+    "country": "Uganda",
+    "query": "Uganda agriculture maize beans smallholder"
+  },
+  {
+    "name": "Ghana Agri TV",
+    "channel_id": "",
+    "country": "Ghana",
+    "query": "Ghana cocoa farming agriculture"
+  },
+  {
+    "name": "AgroNigeria",
+    "channel_id": "",
+    "country": "Nigeria",
+    "query": "Nigeria cassava maize rice farming"
+  },
+  {
+    "name": "Ethiopian Agriculture",
+    "channel_id": "",
+    "country": "Ethiopia",
+    "query": "Ethiopia teff wheat agriculture farming"
+  },
+  {
+    "name": "CIMMYT Africa",
+    "channel_id": "UCzFGdqiH8v2BKGv5-BpNIXw",
+    "country": "Multi",
+    "query": "maize wheat Africa CIMMYT farming"
+  },
+  {
+    "name": "IITA",
+    "channel_id": "UCmOuUWB9NcAHczJ3zFhiAtg",
+    "country": "Multi",
+    "query": "cassava yam cowpea Africa IITA"
+  },
+  {
+    "name": "CTA ACP",
+    "channel_id": "",
+    "country": "Multi",
+    "query": "agribusiness Africa smallholder value chain"
+  },
+  {
+    "name": "One Acre Fund",
+    "channel_id": "",
+    "country": "Multi",
+    "query": "One Acre Fund Kenya Rwanda smallholder farmer"
+  },
+  {
+    "name": "AfriAgri",
+    "channel_id": "",
+    "country": "Multi",
+    "query": "African agriculture best practices soil health"
+  },
+  {
+    "name": "Tanzania Kilimo",
+    "channel_id": "",
+    "country": "Tanzania",
+    "query": "Tanzania kilimo farming mazao"
+  },
+  {
+    "name": "Zambia Agriculture",
+    "channel_id": "",
+    "country": "Zambia",
+    "query": "Zambia maize groundnut farming"
+  },
+  {
+    "name": "Mali Agriculture",
+    "channel_id": "",
+    "country": "Mali",
+    "query": "Mali agriculture mil sorgho coton"
+  },
+  {
+    "name": "Senegal Agri",
+    "channel_id": "",
+    "country": "Senegal",
+    "query": "Senegal agriculture arachide riz"
+  },
+  {
+    "name": "Climate Smart Agriculture Africa",
+    "channel_id": "",
+    "country": "Multi",
+    "query": "climate smart agriculture Africa drought resilience"
+  }
+]
